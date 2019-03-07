@@ -29,7 +29,7 @@ module Servant.Generic
   ) where
 
 import          GHC.Generics
-import          Servant
+import          Servant hiding (AsLink)
 
 -- | A class of generic product types.
 class GProduct f where
